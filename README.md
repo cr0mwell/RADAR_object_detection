@@ -11,8 +11,10 @@ The current Matlab program implements the object detection algorithm through the
 * Simulates the moving target by generating and propagating the signal;
 * Deploys 1D Fast Fourier Transform (FFT) algorithm to convert the signal from time to frequency domain;
 <img src="media/1.jpg" width="400" height="350" />
+
 * Generates a Range Doppler Map using 2D FFT;
 <br><img src="media/2.jpg" width="400" height="350" />
+
 * Filters out the clutter for successful detection of the target using Constant False Alarm Rate (CFAR) technique:
   * Obtains a signal array 'signal' after applying 2D FFT;
   * Sets training and guard cells numbers:
